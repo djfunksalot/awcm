@@ -1,30 +1,47 @@
 {
-  "dependencies": {
-    "mz": "^2.4.0",
-    "aws-sdk": "^2.157",
-    "seedrandom": "2.4.3",
-    "minimist": "1.2.0",
-    "q": "1.5.1"
+  "_from": "awcm",
+  "_id": "awcm@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-uCQxDYUB/LIE6PzfySVMUqOua0Ld0Td0f641oBxOrs7zvroWohfifghUbXWy7aRULLYvCGEii/Rgk/0Y8YM0+Q==",
+  "_location": "/awcm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "awcm",
+    "name": "awcm",
+    "escapedName": "awcm",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
-  "engines": {
-    "node": "6.x"
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/awcm/-/awcm-1.0.0.tgz",
+  "_shasum": "12d12442e3ad162fe33f4989f339342d6ebe5c44",
+  "_spec": "awcm",
+  "_where": "/share/devel/mrsman",
+  "author": {
+    "name": "Steven Vitale"
   },
-  "name": "awcm",
-  "version": "1.0.0",
-  "description": "A Web Services Manager",
-  "main": "service.js",
-  "devDependencies": {},
-  "scripts": {
-    "test": "service rebuild -sv"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/djfunksalot/awcm.git"
-  },
-  "author": "Steven Vitale",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/djfunksalot/awcm/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "aws-sdk": "^2.157",
+    "minimist": "1.2.0",
+    "mz": "^2.4.0",
+    "q": "1.5.1",
+    "seedrandom": "2.4.3"
+  },
+  "deprecated": false,
+  "description": "A Web Services Manager",
+  "devDependencies": {},
+  "engines": {
+    "node": "6.x"
   },
   "homepage": "https://github.com/djfunksalot/awcm#readme",
   "keywords": [
@@ -32,5 +49,32 @@
     "Web",
     "Container",
     "Manager"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "awcm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djfunksalot/awcm.git"
+  },
+  "scripts": {
+    "test": "./example.js rebuild -sv"
+  },
+  "version": "1.0.0",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.x"
+      },
+      "pkgid": "awcm@1.0.0"
+    },
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": "6.x"
+      },
+      "pkgid": "awcm@1.0.0"
+    }
   ]
 }

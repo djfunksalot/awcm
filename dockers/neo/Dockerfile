@@ -35,7 +35,7 @@ VOLUME /data
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
-COPY ./plugins/* /var/lib/neo4j/plugins/
+#COPY ./plugins/* /var/lib/neo4j/plugins/
 
 EXPOSE 7474 7473 7687
 
