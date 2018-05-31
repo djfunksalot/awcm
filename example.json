@@ -1,0 +1,23 @@
+{
+    "services": [{
+        "name": "neo",
+        "portMappings": [{
+            "hostPort": "7474",
+            "protocol": "tcp",
+            "containerPort": "7474"
+        },{
+            "hostPort": "7687",
+            "protocol": "tcp",
+            "containerPort": "7687"
+        },{
+            "hostPort": "7473",
+            "protocol": "tcp",
+            "containerPort": "7473"
+        }]
+      }],
+    "global": {
+        "IP": "127.0.0.2",
+        "NETWORK": "neos",
+        "NEO4J_apoc_import_file_enabled":true
+    }
+}

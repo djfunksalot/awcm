@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "mz": "^2.4.0",
+    "aws-sdk": "^2.157",
+    "seedrandom": "2.4.3",
+    "minimist": "1.2.0",
+    "q": "1.5.1"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "name": "awcm",
+  "version": "1.0.0",
+  "description": "A Web Services Manager",
+  "main": "service.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "service rebuild -sv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djfunksalot/awcm.git"
+  },
+  "author": "Steven Vitale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/djfunksalot/awcm/issues"
+  },
+  "homepage": "https://github.com/djfunksalot/awcm#readme",
+  "keywords": [
+    "A",
+    "Web",
+    "Container",
+    "Manager"
+  ]
+}
